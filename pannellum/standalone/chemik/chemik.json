@@ -1,0 +1,4119 @@
+﻿{
+	"default": {
+		"author": "Bartosz Bieniek",
+		"firstScene": "birdflight_1",
+		"sceneFadeDuration": 1000
+	},
+	"scenes": {
+		"birdflight_1": {
+			"title": "Panorama (front)",
+			"panorama": "./birdflight_1.jpg",
+			"author": "Mariusz Mazur",
+			"hotSpots": [
+				{
+					"pitch": -18,
+					"yaw": -14,
+					"type": "scene",
+					"sceneId": "b1_enterance"
+				},
+				{
+					"pitch": -21,
+					"yaw": 32,
+					"type": "scene",
+					"sceneId": "b2_enterance"
+				},
+				{
+					"pitch": 0,
+					"yaw": 27,
+					"type": "scene",
+					"text": "Panorama (podwórko)",
+					"sceneId": "birdflight_2"
+				}
+			]
+		},
+		"birdflight_2": {
+			"title": "Panorama (podwórko)",
+			"panorama": "./birdflight_2.jpg",
+			"author": "Mariusz Mazur",
+			"hotSpots": [
+				{
+					"pitch": -10,
+					"yaw": -19,
+					"type": "scene",
+					"sceneId": "outside_catwalk_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": -17,
+					"type": "scene",
+					"text": "Panorama (front)",
+					"sceneId": "birdflight_1"
+				},
+				{
+					"pitch": -24,
+					"yaw": -18,
+					"type": "scene",
+					"sceneId": "playground_1"
+				},
+				{
+					"pitch": -15,
+					"yaw": -60,
+					"type": "scene",
+					"sceneId": "hall_outside_1"
+				},
+				{
+					"pitch": -28,
+					"yaw": -38,
+					"type": "scene",
+					"sceneId": "hall_outside_3"
+				},
+				{
+					"pitch": -46,
+					"yaw": -28,
+					"type": "scene",
+					"sceneId": "outside_path_1"
+				},
+				{
+					"pitch": -80,
+					"yaw": 0,
+					"type": "scene",
+					"sceneId": "outside_path_2"
+				},
+				{
+					"pitch": -56,
+					"yaw": 60,
+					"type": "scene",
+					"sceneId": "outside_path_3"
+				},
+				{
+					"pitch": -30,
+					"yaw": 38,
+					"type": "scene",
+					"sceneId": "outside_path_4"
+				},
+				{
+					"pitch": -23,
+					"yaw": -8,
+					"type": "scene",
+					"sceneId": "playground_2"
+				},
+				{
+					"pitch": -19,
+					"yaw": 16,
+					"type": "scene",
+					"sceneId": "playground_football"
+				},
+				{
+					"pitch": -16,
+					"yaw": -9,
+					"type": "scene",
+					"sceneId": "playground_basketball"
+				},
+				{
+					"pitch": -19,
+					"yaw": 32,
+					"type": "scene",
+					"sceneId": "outside_path_5"
+				},
+				{
+					"pitch": -22,
+					"yaw": 46,
+					"type": "scene",
+					"sceneId": "outside_stage"
+				},
+				{
+					"pitch": -12,
+					"yaw": 46,
+					"type": "scene",
+					"text": "Kapliczka",
+					"sceneId": "outside_chapel"
+				}
+			]
+		},
+		"b1_enterance": {
+			"title": "Wejście Główne [Zewnątrz]",
+			"panorama": "./b1_main.jpg",
+			"hotSpots": [
+				{
+					"pitch": 26,
+					"yaw": 170,
+					"type": "scene",
+					"sceneId": "birdflight_1"
+				},
+				{
+					"pitch": 16,
+					"yaw": -28,
+					"type": "info",
+					"text": "Powiatowy Zespół Nr 2 Szkół Ogólnokształcących Mistrrzostwa Sportowego i Technicznych",
+					"URL": "http://www.pz2.edu.pl/"
+				},
+				{
+					"pitch": 4,
+					"yaw": -6,
+					"type": "scene",
+					"sceneId": "b1_parter_main1"
+				},
+				{
+					"pitch": 0,
+					"yaw": 110,
+					"type": "scene",
+					"sceneId": "b2_enterance"
+				}
+			]
+		},
+		"b1_parter_main1": {
+			"title": "Wejście Główne [Wewnątrz]",
+			"panorama": "./b1_parter_main1.jpg",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw": 135,
+					"type": "scene",
+					"sceneId": "b1_enterance"
+				},
+				{
+					"pitch": 7,
+					"yaw": -76,
+					"type": "scene",
+					"sceneId": "b1_1floor_main1"
+				},
+				{
+					"pitch": -4,
+					"yaw": 15,
+					"type": "info",
+					"text": "Ignacy Łukasiewicz",
+					"URL": "https://pl.wikipedia.org/wiki/Ignacy_Łukasiewicz"
+				}
+			]
+		},
+		"b1_stairs1-2_1": {
+			"title": "Budynek 1: Schody",
+			"panorama": "./b1_stairs1-2_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": 15,
+					"yaw": 27,
+					"type": "scene",
+					"sceneId": "b1_2floor_main1"
+				},
+				{
+					"pitch": 18,
+					"yaw": -21,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -15,
+					"yaw": 0,
+					"type": "scene",
+					"text": "Piętro 1.",
+					"sceneId": "b1_1floor_main1"
+				}
+			]
+		},
+		"b1_stairs1-2_3": {
+			"title": "Budynek 1: Schody",
+			"panorama": "./b1_stairs1-2_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": 12,
+					"yaw": 6,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_1"
+				},
+				{
+					"pitch": -4,
+					"yaw": -168.5,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_7r"
+				},
+				{
+					"pitch": -20,
+					"yaw": 20,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_1"
+				}
+			]
+		},
+		"b1_1floor_main1": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_main1.jpg",
+			"hotSpots": [
+				{
+					"pitch": 9,
+					"yaw": -122,
+					"type": "scene",
+					"text": "Piętro 2.",
+					"sceneId": "b1_stairs1-2_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": -60,
+					"type": "scene",
+					"text": "<",
+					"sceneId": "b1_1floor_corridor_6r"
+				},
+				{
+					"pitch": 0,
+					"yaw": 24.5,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_7"
+				},
+				{
+					"pitch": -20,
+					"yaw": -137,
+					"type": "scene",
+					"sceneId": "b1_parter_main1"
+				}
+			]
+		},
+		"b1_1floor_corridor_1": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -7,
+					"yaw": -45,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_2"
+				}
+			]
+		},
+		"b1_1floor_corridor_2": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -6,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_3"
+				},
+				{
+					"pitch": -5,
+					"yaw": -176,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_1"
+				}
+			]
+		},
+		"b1_1floor_corridor_2r": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_2r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -5,
+					"yaw": -175,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_3"
+				},
+				{
+					"pitch": -5,
+					"yaw": 3,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_1"
+				}
+			]
+		},
+		"b1_1floor_corridor_3": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw": -20,
+					"type": "scene",
+					"text": "Piętro 2.",
+					"sceneId": "b1_2floor_lcorridor_7"
+				},
+				{
+					"pitch": -8,
+					"yaw": -131,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_2r"
+				},
+				{
+					"pitch": -13,
+					"yaw": 53,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_4"
+				}
+			]
+		},
+		"b1_1floor_corridor_4": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_4.jpg",
+			"hotSpots": [
+				{
+					"pitch": -7,
+					"yaw": -0.5,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_5"
+				},
+				{
+					"pitch": -13,
+					"yaw": 179,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_3"
+				},
+				{
+					"pitch": -4,
+					"yaw": 179,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_2r"
+				}
+			]
+		},
+		"b1_1floor_corridor_4r": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_4r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -7,
+					"yaw": -179.5,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_5"
+				},
+				{
+					"pitch": -13,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_3"
+				},
+				{
+					"pitch": -4,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_2r"
+				}
+			]
+		},
+		"b1_1floor_corridor_5": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_5.jpg",
+			"hotSpots": [
+				{
+					"pitch": -9.5,
+					"yaw": -0.5,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_6"
+				},
+				{
+					"pitch": -9.5,
+					"yaw": 179.5,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_4r"
+				}
+			]
+		},
+		"b1_1floor_corridor_5r": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_5r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -9.5,
+					"yaw": 179.5,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_6"
+				},
+				{
+					"pitch": -9.5,
+					"yaw": -0.5,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_4r"
+				}
+			]
+		},
+		"b1_1floor_corridor_6": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_6.jpg",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 5,
+					"type": "scene",
+					"sceneId": "b1_1floor_main1"
+				},
+				{
+					"pitch": -7,
+					"yaw": -179,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_5r"
+				}
+			]
+		},
+		"b1_1floor_corridor_6r": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_6r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": -175,
+					"type": "scene",
+					"sceneId": "b1_1floor_main1"
+				},
+				{
+					"pitch": -8,
+					"yaw": 1,
+					"type": "scene",
+					"sceneId": "b1_1floor_corridor_5r"
+				}
+			]
+		},
+		"b1_1floor_corridor_7": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_7.jpg",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 0.5,
+					"type": "scene",
+					"sceneId": "b1_stairs1-2_3"
+				},
+				{
+					"pitch": -1,
+					"yaw": 164,
+					"type": "scene",
+					"sceneId": "b1_1floor_main1"
+				}
+			]
+		},
+		"b1_1floor_corridor_7r": {
+			"title": "Budynek 1: Piętro 1.",
+			"panorama": "./b1_1floor_corridor_7r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": -179.5,
+					"type": "scene",
+					"sceneId": "b1_stairs1-2_3"
+				},
+				{
+					"pitch": -1,
+					"yaw": -16,
+					"type": "scene",
+					"sceneId": "b1_1floor_main1"
+				}
+			]
+		},
+		"b1_2floor_main1": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_main1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -15,
+					"yaw": -34,
+					"type": "scene",
+					"sceneId": "b1_2floor_main2"
+				},
+				{
+					"pitch": -21,
+					"yaw": -90,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -5,
+					"yaw": -42,
+					"type": "scene",
+					"text": "Sala 226",
+					"sceneId": "room226_1"
+				},
+				{
+					"pitch": -29,
+					"yaw": -175,
+					"type": "scene",
+					"text": "Schody",
+					"sceneId": "b1_stairs1-2_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": -155,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_1"
+				}
+			]
+		},
+		"b1_2floor_main2": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_main2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -13,
+					"yaw": -8,
+					"type": "scene",
+					"sceneId": "b1_2floor_main1"
+				},
+				{
+					"pitch": -7,
+					"yaw": 0,
+					"type": "scene",
+					"text": "Schody",
+					"sceneId": "b1_stairs1-2_1"
+				},
+				{
+					"pitch": -16,
+					"yaw": 33,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -6,
+					"yaw": 30,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_1"
+				},
+				{
+					"pitch": -10,
+					"yaw": -155,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_1"
+				},
+				{
+					"pitch": -6,
+					"yaw": -154,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_2"
+				},
+				{
+					"pitch": -22,
+					"yaw": 136,
+					"type": "scene",
+					"text": "Sala 226",
+					"sceneId": "room226_1"
+				}
+			]
+		},
+		"b1_2floor_main3": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_main3.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -14,
+					"yaw": 9,
+					"type": "scene",
+					"sceneId": "b1_2floor_main1"
+				},
+				{
+					"pitch": -11,
+					"yaw": 68,
+					"type": "scene",
+					"text": "Schody",
+					"sceneId": "b1_stairs1-2_1"
+				},
+				{
+					"pitch": -8,
+					"yaw": 99,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": -67,
+					"type": "scene",
+					"sceneId": "b1_2floor_main2"
+				},
+				{
+					"pitch": -6,
+					"yaw": -75,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": -85,
+					"type": "scene",
+					"text": "Sala 226",
+					"sceneId": "room226_1"
+				}
+			]
+		},
+		"b1_2floor_rcorridor_1": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_rcorridor_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -17,
+					"yaw": 5,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_2"
+				},
+				{
+					"pitch": -7,
+					"yaw": 2,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_3"
+				},
+				{
+					"pitch": -3,
+					"yaw": 16,
+					"type": "scene",
+					"text": "Sala 259",
+					"sceneId": "room259_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": -7,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_1"
+				},
+				{
+					"pitch": -10,
+					"yaw": -180,
+					"type": "scene",
+					"sceneId": "b1_2floor_main2"
+				},
+				{
+					"pitch": -5,
+					"yaw": -175,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -3,
+					"yaw": 174,
+					"type": "scene",
+					"text": "Schody",
+					"sceneId": "b1_stairs1-2_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": -164,
+					"type": "scene",
+					"text": "Sala 226",
+					"sceneId": "room226_1"
+				}
+			]
+		},
+		"b1_2floor_rcorridor_1r": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_rcorridor_1r.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -13,
+					"yaw": -8,
+					"type": "scene",
+					"sceneId": "b1_2floor_main2"
+				},
+				{
+					"pitch": -7,
+					"yaw": 0,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -4,
+					"yaw": -12,
+					"type": "scene",
+					"text": "Schody",
+					"sceneId": "b1_stairs1-2_1"
+				},
+				{
+					"pitch": -15,
+					"yaw": 180,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_2"
+				},
+				{
+					"pitch": -2,
+					"yaw": -170,
+					"type": "scene",
+					"text": "Sala 259",
+					"sceneId": "room259_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": 168,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": 12,
+					"type": "scene",
+					"text": "Sala 226",
+					"sceneId": "room226_1"
+				}
+			]
+		},
+		"b1_2floor_rcorridor_2": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_rcorridor_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -15,
+					"yaw": 178,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_1r"
+				},
+				{
+					"pitch": -8,
+					"yaw": -5,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_3"
+				},
+				{
+					"pitch": -7,
+					"yaw": 173,
+					"type": "scene",
+					"sceneId": "b1_2floor_main2"
+				},
+				{
+					"pitch": -5,
+					"yaw": -2,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_4"
+				},
+				{
+					"pitch": -2,
+					"yaw": 4,
+					"type": "scene",
+					"text": "Sala 260",
+					"sceneId": "room260_1"
+				},
+				{
+					"pitch": -25,
+					"yaw": 57,
+					"type": "scene",
+					"text": "Sala 259",
+					"sceneId": "room259_1"
+				},
+				{
+					"pitch": -25,
+					"yaw": -62,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_1"
+				}
+			]
+		},
+		"b1_2floor_rcorridor_2r": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_rcorridor_2r.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -8,
+					"yaw": 175,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_3"
+				},
+				{
+					"pitch": -15,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_1r"
+				},
+				{
+					"pitch": -7,
+					"yaw": -5,
+					"type": "scene",
+					"sceneId": "b1_2floor_main2"
+				},
+				{
+					"pitch": -5,
+					"yaw": 180,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_4"
+				},
+				{
+					"pitch": -2,
+					"yaw": -175,
+					"type": "scene",
+					"text": "Sala 260",
+					"sceneId": "room260_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": 6,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_1"
+				},
+				{
+					"pitch": -25,
+					"yaw": -120,
+					"type": "scene",
+					"text": "Sala 259",
+					"sceneId": "room259_1"
+				},
+				{
+					"pitch": -24,
+					"yaw": 119,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_1"
+				}
+			]
+		},
+		"b1_2floor_rcorridor_3": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_rcorridor_3.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -7,
+					"yaw": 55,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_2r"
+				},
+				{
+					"pitch": -25,
+					"yaw": -18,
+					"type": "scene",
+					"text": "Sala 260",
+					"sceneId": "room260_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": 48,
+					"type": "scene",
+					"text": "Sala 259",
+					"sceneId": "room259_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": 63,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": -113,
+					"type": "scene",
+					"sceneId": "b1_2floor_rcorridor_4"
+				}
+			]
+		},
+		"b1_2floor_rcorridor_4": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_rcorridor_4.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -13,
+					"yaw": -3,
+					"type": "scene",
+
+					"sceneId": "b1_2floor_rcorridor_3"
+				},
+				{
+					"pitch": -8,
+					"yaw": -7,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_rcorridor_2r"
+				},
+				{
+					"pitch": -5,
+					"yaw": -14,
+					"type": "scene",
+					"text": "Sala 260",
+					"sceneId": "room260_1"
+				},
+				{
+					"pitch": -15,
+					"yaw": 63,
+					"type": "scene",
+					"text": "Sala 221",
+					"sceneId": "room221_1"
+				},
+				{
+					"pitch": -7,
+					"yaw": 170,
+					"type": "scene",
+					"text": "Budynek 2.",
+					"sceneId": "b1_2floor_rcorridor_5"
+				}
+			]
+		},
+		"b1_2floor_rcorridor_5": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b1_2floor_rcorridor_5.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -7,
+					"yaw": -96,
+					"type": "scene",
+					"text": "Budynek 1.",
+					"sceneId": "b1_2floor_rcorridor_4"
+				},
+				{
+					"pitch": -14,
+					"yaw": 25,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_1"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_1": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -9,
+					"yaw": 175,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -2,
+					"yaw": -157,
+					"type": "scene",
+					"sceneId": "b1_2floor_main1"
+				},
+				{
+					"pitch": -18,
+					"yaw": -9,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_2"
+				},
+				{
+					"pitch": -5,
+					"yaw": 6,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": -8,
+					"yaw": -2,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_3"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_1r": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_1r.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -10,
+					"yaw": -8,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -7,
+					"yaw": -4,
+					"type": "scene",
+					"sceneId": "b1_2floor_main2"
+				},
+				{
+					"pitch": -2,
+					"yaw": 24,
+					"type": "scene",
+					"sceneId": "b1_2floor_main1"
+				},
+				{
+					"pitch": -13,
+					"yaw": 168,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_2"
+				},
+				{
+					"pitch": -1,
+					"yaw": -178,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": -5,
+					"yaw": 175,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_3"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_2": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -16,
+					"yaw": 155,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_1r"
+				},
+				{
+					"pitch": -6,
+					"yaw": 158,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -23,
+					"yaw": 40,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": -20,
+					"yaw": -6,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_3"
+				},
+				{
+					"pitch": -8,
+					"yaw": -19,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_4"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_2r": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_2r.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -16,
+					"yaw": -25,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_1r"
+				},
+				{
+					"pitch": -6,
+					"yaw": -22,
+					"type": "scene",
+					"sceneId": "b1_2floor_main3"
+				},
+				{
+					"pitch": -23,
+					"yaw": -140,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": -20,
+					"yaw": 174,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_3"
+				},
+				{
+					"pitch": -8,
+					"yaw": 162,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_4"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_3": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_3.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -20,
+					"yaw": -138,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_2r"
+				},
+				{
+					"pitch": -6,
+					"yaw": -158,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": -44,
+					"type": "scene",
+					"text": "Sala 254",
+					"sceneId": "room254_1"
+				},
+				{
+					"pitch": -16,
+					"yaw": 13,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_4"
+				},
+				{
+					"pitch": -5,
+					"yaw": 28,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_5"
+				},
+				{
+					"pitch": 0,
+					"yaw": 36,
+					"type": "scene",
+					"text": "Sala 235",
+					"sceneId": "room235_1"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_3r": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_3r.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -20,
+					"yaw": -48,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_2r"
+				},
+				{
+					"pitch": -6,
+					"yaw": -68,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": 46,
+					"type": "scene",
+					"text": "Sala 254",
+					"sceneId": "room254_1"
+				},
+				{
+					"pitch": -16,
+					"yaw": 103,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_4"
+				},
+				{
+					"pitch": -5,
+					"yaw": 118,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_5"
+				},
+				{
+					"pitch": 0,
+					"yaw": 126,
+					"type": "scene",
+					"text": "Sala 235",
+					"sceneId": "room235_1"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_4": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_4.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -21,
+					"yaw": 145,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_3r"
+				},
+				{
+					"pitch": -2,
+					"yaw": 148,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": 160,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_2r"
+				},
+				{
+					"pitch": -6,
+					"yaw": 177,
+					"type": "scene",
+					"text": "Sala 254",
+					"sceneId": "room254_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": 66,
+					"type": "scene",
+					"text": "Sala 235",
+					"sceneId": "room235_1"
+				},
+				{
+					"pitch": -10,
+					"yaw": -6,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_5"
+				},
+				{
+					"pitch": -5,
+					"yaw": -12,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_6"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_4r": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_4r.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -19,
+					"yaw": -15,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_3r"
+				},
+				{
+					"pitch": -2,
+					"yaw": -9,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": 3,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_2r"
+				},
+				{
+					"pitch": -11,
+					"yaw": -166,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_5"
+				},
+				{
+					"pitch": -5,
+					"yaw": -169,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_6"
+				},
+				{
+					"pitch": -6,
+					"yaw": 20,
+					"type": "scene",
+					"text": "Sala 254",
+					"sceneId": "room254_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": -91,
+					"type": "scene",
+					"text": "Sala 235",
+					"sceneId": "room235_1"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_5": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_5.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -10,
+					"yaw": -149,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_4r"
+				},
+				{
+					"pitch": -10,
+					"yaw": -74,
+					"type": "scene",
+					"text": "Sala  253 [COMING SOON]",
+					"sceneId": "room253_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": -3,
+					"type": "scene",
+					"text": "Sala  252",
+					"sceneId": "room252_1"
+				},
+				{
+					"pitch": -14,
+					"yaw": 16,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_6"
+				},
+				{
+					"pitch": -4,
+					"yaw": -164,
+					"type": "scene",
+					"text": "Sala 235",
+					"sceneId": "room235_1"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_5r": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_5r.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -10,
+					"yaw": -15,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_4r"
+				},
+				{
+					"pitch": -10,
+					"yaw": 60,
+					"type": "scene",
+					"text": "Sala  253 [COMING SOON]",
+					"sceneId": "room253_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": 131,
+					"type": "scene",
+					"text": "Sala  252",
+					"sceneId": "room252_1"
+				},
+				{
+					"pitch": -4,
+					"yaw": -30,
+					"type": "scene",
+					"text": "Sala 235",
+					"sceneId": "room235_1"
+				},
+				{
+					"pitch": -14,
+					"yaw": 151,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_6"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_6": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_6.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -12,
+					"yaw": -168,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_5r"
+				},
+				{
+					"pitch": -5,
+					"yaw": -97,
+					"type": "scene",
+					"text": "Sala 252",
+					"sceneId": "room252_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": -152,
+					"type": "scene",
+					"text": "Sala 253 [COMING SOON]",
+					"sceneId": "room235_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": -10,
+					"type": "scene",
+					"text": "Sala 251 [COMING SOON]",
+					"sceneId": "room251_1"
+				},
+				{
+					"pitch": -5,
+					"yaw": -163,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_4r"
+				},
+				{
+					"pitch": -8,
+					"yaw": 2,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_7"
+				},
+				{
+					"pitch": -3,
+					"yaw": 24,
+					"type": "scene",
+					"text": "Sala 237",
+					"sceneId": "room237_1"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_6r": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_6r.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -8,
+					"yaw": 164,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_7"
+				},
+				{
+					"pitch": -5,
+					"yaw": -97,
+					"type": "scene",
+					"text": "Sala 252",
+					"sceneId": "room252_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": 10,
+					"type": "scene",
+					"text": "Sala 253 [COMING SOON]",
+					"sceneId": "room253_1"
+				},
+				{
+					"pitch": -10,
+					"yaw": -6,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_5r"
+				},
+				{
+					"pitch": -5,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_4r"
+				},
+				{
+					"pitch": -3,
+					"yaw": 64,
+					"type": "scene",
+					"text": "Sala 252",
+					"sceneId": "room252_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": 152,
+					"type": "scene",
+					"text": "Sala 251 [COMING SOON]",
+					"sceneId": "room251_1"
+				},
+				{
+					"pitch": -5,
+					"yaw": -174,
+					"type": "scene",
+					"text": "Sala 237",
+					"sceneId": "room237_1"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_7": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_7.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -5,
+					"yaw": -150,
+					"type": "scene",
+					"text": "Sala 250 [COMING SOON]",
+					"sceneId": "room250_1"
+				},
+				{
+					"pitch": -13,
+					"yaw": -18,
+					"type": "scene",
+					"text": "Piętro 1.",
+					"sceneId": "b1_1floor_corridor_3"
+				},
+				{
+					"pitch": -5,
+					"yaw": -82,
+					"type": "scene",
+					"text": "Sala 238",
+					"sceneId": "room238_1"
+				},
+				{
+					"pitch": -6,
+					"yaw": -115,
+					"type": "scene",
+					"sceneId": "room238_1"
+				},
+				{
+					"pitch": -6,
+					"yaw": 62,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_6r"
+				},
+				{
+					"pitch": -1,
+					"yaw": 57,
+					"type": "scene",
+					"text": "Sala 237",
+					"sceneId": "room237_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": 82,
+					"type": "scene",
+					"text": "Sala 251",
+					"sceneId": "room251_1"
+				}
+			]
+		},
+		"b1_2floor_lcorridor_9": {
+			"title": "Budynek 1: Piętro 2.",
+			"panorama": "./b1_2floor_lcorridor_9.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -9,
+					"yaw": 34,
+					"type": "scene",
+					"text": "Sala 245",
+					"sceneId": "room245_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": -54,
+					"type": "scene",
+					"sceneId": "b1_2floor_lcorridor_7"
+				}
+			]
+		},
+		"b2_enterance": {
+			"title": "Budynek 2: Wejście",
+			"panorama": "./b2_enterance.jpg",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 2,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "b2_parter_lobby"
+				},
+				{
+					"pitch": 30,
+					"yaw": -175,
+					"type": "scene",
+					"text": "Panorama",
+					"sceneId": "birdflight_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": -97,
+					"type": "scene",
+					"text": "Budynek 1.",
+					"sceneId": "b1_enterance"
+				}
+			]
+		},
+		"b2_parter_lobby": {
+			"title": "Budynek 2: Wejście",
+			"panorama": "./b2_parter_lobby.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": -125,
+					"type": "scene",
+					"text": "Wyjście",
+					"sceneId": "b2_enterance"
+				},
+				{
+					"pitch": -10,
+					"yaw": -50,
+					"type": "scene",
+					"text": "Ślimak",
+					"sceneId": "b2_parter_snail"
+				},
+				{
+					"pitch": -5,
+					"yaw": 39,
+					"type": "scene",
+					"text": "Wyjście",
+					"sceneId": "outside_catwalk_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": 72,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_corridor_1r"
+				},
+				{
+					"pitch": -6,
+					"yaw": 76,
+					"type": "scene",
+					"text": "Galeria Sław",
+					"sceneId": "b2_parter_glory"
+				}
+			]
+		},
+		"b1_parter_corridor_1": {
+			"title": "Budynek 2: Parter",
+			"panorama": "./b1_parter_corridor_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": 178,
+					"type": "scene",
+					"sceneId": "b2_parter_snail"
+				},
+				{
+					"pitch": -5,
+					"yaw": 0,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_2"
+				}
+			]
+		},
+		"b1_parter_corridor_1r": {
+			"title": "Budynek 2: Parter",
+			"panorama": "./b1_parter_corridor_1r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -2,
+					"type": "scene",
+					"sceneId": "b2_parter_snail"
+				},
+				{
+					"pitch": -5,
+					"yaw": 180,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_2"
+				}
+			]
+		},
+		"b1_parter_corridor_2": {
+			"title": "Budynek 2: Parter",
+			"panorama": "./b1_parter_corridor_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -6,
+					"yaw": -179,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": 0,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_3"
+				}
+			]
+		},
+		"b1_parter_corridor_2r": {
+			"title": "Budynek 2: Parter",
+			"panorama": "./b1_parter_corridor_2r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -6,
+					"yaw": 1,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_1r"
+				},
+				{
+					"pitch": -3,
+					"yaw": 180,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_3"
+				}
+			]
+		},
+		"b1_parter_corridor_3": {
+			"title": "Budynek 2: Parter",
+			"panorama": "./b1_parter_corridor_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -21,
+					"yaw": 3,
+					"type": "scene",
+					"sceneId": "connector_1"
+				},
+				{
+					"pitch": -5,
+					"yaw":  -92,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_2r"
+				}
+			]
+		},
+		"connector_1": {
+			"title": "Łącznik",
+			"panorama": "./connector_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw":  0,
+					"type": "scene",
+					"text": "Wyjście",
+					"sceneId": "outside_path_7"
+				},
+				{
+					"pitch": -16,
+					"yaw": 97,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_3"
+				}
+			]
+		},
+		"b2_parter_snail": {
+			"title": "Budynek 2: Parter: Ślimak",
+			"panorama": "./b2_parter_snail.jpg",
+			"hotSpots": [
+				{
+					"pitch": -8,
+					"yaw": 155,
+					"type": "scene",
+					"sceneId": "b2_parter_lobby"
+				},
+				{
+					"pitch": -10,
+					"yaw": 10,
+					"type": "scene",
+					"text": "Piętro 1.",
+					"sceneId": "b2_1floor_snail"
+				},
+				{
+					"pitch": -6,
+					"yaw": -9,
+					"type": "scene",
+					"sceneId": "b1_parter_corridor_1"
+				}
+			]
+		},
+		"b2_parter_glory": {
+			"title": "Budynek 2: Galeria Sław",
+			"panorama": "./b2_parter_glory.jpg",
+			"hotSpots": [
+				{
+					"pitch": -6,
+					"yaw": -80,
+					"type": "scene",
+					"sceneId": "b2_parter_lobby"
+				},
+				{
+					"pitch": -1,
+					"yaw": 96,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_corridor_1r"
+				}
+			]
+		},
+		"b2_1floor_corridor_1": {
+			"title": "Budynek 2: Piętro 1.",
+			"panorama": "./b2_1floor_corridor_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": 9,
+					"yaw": 30,
+					"type": "scene",
+					"sceneId": "b1_stairs1-2_3"
+				},
+				{
+					"pitch": -12,
+					"yaw": -38,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_3"
+				},
+				{
+					"pitch": -6,
+					"yaw": 134,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_2"
+				}
+			]
+		},
+		"b2_1floor_corridor_2": {
+			"title": "Budynek 2: Piętro 1.",
+			"panorama": "./b2_1floor_corridor_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -6,
+					"yaw": 60,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_1"
+				}
+			]
+		},
+		"b2_1floor_corridor_3": {
+			"title": "Budynek 2: Piętro 1.",
+			"panorama": "./b2_1floor_corridor_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -11,
+					"yaw": -175,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_1"
+				},
+				{
+					"pitch": -7,
+					"yaw": -0.5,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_4"
+				}
+			]
+		},
+		"b2_1floor_corridor_3r": {
+			"title": "Budynek 2: Piętro 1.",
+			"panorama": "./b2_1floor_corridor_3r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -11,
+					"yaw": 5,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_1"
+				},
+				{
+					"pitch": -7,
+					"yaw": 179.5,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_4"
+				}
+			]
+		},
+		"b2_1floor_corridor_4": {
+			"title": "Budynek 2: Piętro 1.",
+			"panorama": "./b2_1floor_corridor_4.jpg",
+			"hotSpots": [
+				{
+					"pitch": -5.5,
+					"yaw": 179,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_3r"
+				},
+				{
+					"pitch": -1,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b2_1floor_snail"
+				}
+			]
+		},
+		"b2_1floor_corridor_4r": {
+			"title": "Budynek 2: Piętro 1.",
+			"panorama": "./b2_1floor_corridor_4r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -5.5,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_3r"
+				},
+				{
+					"pitch": -1,
+					"yaw": 179,
+					"type": "scene",
+					"sceneId": "b2_1floor_snail"
+				}
+			]
+		},
+		"b2_1floor_snail": {
+			"title": "Budynek 2: Piętro 1.: Ślimak",
+			"panorama": "./b2_1floor_snail.jpg",
+			"hotSpots": [
+				{
+					"pitch": -8,
+					"yaw": 143,
+					"type": "scene",
+					"text": "Sala 112",
+					"sceneId": "room112_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": -3,
+					"type": "scene",
+					"text": "Piętro 2.",
+					"sceneId": "b2_2floor_snail"
+				},
+				{
+					"pitch": -3,
+					"yaw": -18,
+					"type": "scene",
+					"sceneId": "b2_1floor_corridor_4r"
+				},
+				{
+					"pitch": -22,
+					"yaw": 35,
+					"type": "scene",
+					"text": "Parter",
+					"sceneId": "b2_parter_snail"
+				}
+			]
+		},
+		"b2_2floor_corridor_1": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b2_2floor_corridor_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": 6,
+					"yaw": 46,
+					"type": "scene",
+					"text": "Budynek 1.",
+					"sceneId": "b1_2floor_rcorridor_4"
+				},
+				{
+					"pitch": -12,
+					"yaw": 47,
+					"type": "scene",
+					"text": "Piętro 1.",
+					"sceneId": "b1_stairs1-2_3"
+				},
+				{
+					"pitch": -6,
+					"yaw": 134,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_2"
+				},
+				{
+					"pitch": -14,
+					"yaw": -34,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_3"
+				},
+				{
+					"pitch": -4,
+					"yaw": -40,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_4"
+				},
+				{
+					"pitch": -1,
+					"yaw": 34,
+					"type": "scene",
+					"text": "Schody",
+					"sceneId": "b1_2floor_rcorridor_5"
+				}
+			]
+		},
+		"b2_2floor_corridor_2": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b2_2floor_corridor_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": 75,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_1"
+				},
+				{
+					"pitch": -21,
+					"yaw": -8,
+					"type": "scene",
+					"text": "Sala  203",
+					"sceneId": "room203_1"
+				}
+			]
+		},
+		"b2_2floor_corridor_3": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b2_2floor_corridor_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -13,
+					"yaw": -159,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_1"
+				},
+				{
+					"pitch": -5,
+					"yaw": 13,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_4"
+				}
+			]
+		},
+		"b2_2floor_corridor_3r": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b2_2floor_corridor_3r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -5,
+					"yaw": -164,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_4"
+				},
+				{
+					"pitch": -13,
+					"yaw": 24,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_1"
+				}
+			]
+		},
+		"b2_2floor_corridor_4": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b2_2floor_corridor_4.jpg",
+			"hotSpots": [
+				{
+					"pitch": -7,
+					"yaw": -173,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_3r"
+				},
+				{
+					"pitch": -5,
+					"yaw": 6,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_5"
+				}
+			]
+		},
+		"b2_2floor_corridor_4r": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b2_2floor_corridor_4r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -6,
+					"yaw": -171,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_5"
+				},
+				{
+					"pitch": -7,
+					"yaw": 11,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_3r"
+				}
+			]
+		},
+		"b2_2floor_corridor_5": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b2_2floor_corridor_5.jpg",
+			"hotSpots": [
+				{
+					"pitch": -5,
+					"yaw": 180,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_4r"
+				},
+				{
+					"pitch": -3,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b2_2floor_snail"
+				}
+			]
+		},
+		"b2_2floor_corridor_5r": {
+			"title": "Budynek 2: Piętro 2.",
+			"panorama": "./b2_2floor_corridor_5r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": 179,
+					"type": "scene",
+					"text": "Ślimak",
+					"sceneId": "b2_2floor_snail"
+				},
+				{
+					"pitch": -5,
+					"yaw": -1,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_4r"
+				}
+			]
+		},
+		"b2_2floor_snail": {
+			"title": "Budynek 2: Piętro 2.: Ślimak",
+			"panorama": "./b2_2floor_snail.jpg",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": -22,
+					"type": "scene",
+					"sceneId": "b2_2floor_corridor_5r"
+				},
+				{
+					"pitch": -11,
+					"yaw": 27,
+					"type": "scene",
+					"text": "Piętro 1.",
+					"sceneId": "b2_1floor_snail"
+				},
+				{
+					"pitch": -2,
+					"yaw": 116,
+					"type": "scene",
+					"text": "Sala 220",
+					"sceneId": "room220_1"
+				}
+			]
+		},
+		"room112_1": {
+			"title": "Budynek 2: Piętro 1.: Sala 112",
+			"panorama": "./room112_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": 24,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b2_1floor_snail"
+				},
+				{
+					"pitch": -2,
+					"yaw": 170,
+					"type": "scene",
+					"text": "Sala 112",
+					"sceneId": "room112_2"
+				}
+			]
+		},
+		"room112_2": {
+			"title": "Budynek 2: Piętro 1.: Sala 112",
+			"panorama": "./room112_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -3,
+					"type": "scene",
+					"text": "Sala 112",
+					"sceneId": "room112_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": 10,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b2_1floor_snail"
+				}
+			]
+		},
+		"room203_1": {
+			"title": "Budynek 2: Piętro 2.: Sala 203",
+			"panorama": "./room203_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -20,
+					"yaw": -132,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b2_2floor_corridor_2"
+				},
+				{
+					"pitch": -2,
+					"yaw": -23,
+					"type": "scene",
+					"text": "Sala 203",
+					"sceneId": "room203_2"
+				}
+			]
+		},
+		"room203_2": {
+			"title": "Budynek 2: Piętro 2.: Sala 203",
+			"panorama": "./room203_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -10,
+					"type": "scene",
+					"text": "Sala 112",
+					"sceneId": "room203_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": 0,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b2_2floor_corridor_2"
+				}
+			]
+		},
+		"room220_1": {
+			"title": "Budynek 2: Piętro 2.: Sala 220",
+			"panorama": "./room220_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -3,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b2_2floor_snail"
+				}
+			]
+		},
+		"room221_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 221",
+			"panorama": "./room221_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -9,
+					"yaw": 32,
+					"type": "scene",
+					"text": "Sala 221",
+					"sceneId": "room221_2"
+				},
+				{
+					"pitch": -12,
+					"yaw": -60,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_rcorridor_4"
+				}
+			]
+		},
+		"room221_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 221",
+			"panorama": "./room221_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -13,
+					"yaw": -87,
+					"type": "scene",
+					"text": "Sala 221",
+					"sceneId": "room221_1"
+				}
+			]
+		},
+		"room224_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 224",
+			"panorama": "./room224_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -27,
+					"yaw": -102,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_rcorridor_2"
+				},
+				{
+					"pitch": -15,
+					"yaw": -118,
+					"type": "scene",
+					"text": "Sala 259",
+					"sceneId": "room259_1"
+				},
+				{
+					"pitch": -5,
+					"yaw": -5,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_2"
+				}
+			]
+		},
+		"room224_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 224",
+			"panorama": "./room224_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -5,
+					"yaw": 29,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": 38,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_rcorridor_2"
+				}
+			]
+		},
+		"room226_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 226",
+			"panorama": "./room226_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -24,
+					"yaw": -85,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_main2"
+				},
+				{
+					"pitch": -5,
+					"yaw": 7,
+					"type": "scene",
+					"text": "Sala 226",
+					"sceneId": "room226_2"
+				}
+			]
+		},
+		"room226_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 226",
+			"panorama": "./room226_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -5,
+					"yaw": 4,
+					"type": "scene",
+					"text": "Sala 226",
+					"sceneId": "room226_1"
+				}
+			]
+		},
+		"room234_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 234",
+			"panorama": "./room234_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": 57,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_2"
+				},
+				{
+					"pitch": -10,
+					"yaw": -50,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_2"
+				}
+			]
+		},
+		"room234_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 234",
+			"panorama": "./room234_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -26,
+					"type": "scene",
+					"text": "Sala 234",
+					"sceneId": "room234_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": -13,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_2"
+				}
+			]
+		},
+		"room235_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 235",
+			"panorama": "./room235_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": 22,
+					"type": "scene",
+					"text": "Sala 235",
+					"sceneId": "room235_2"
+				},
+				{
+					"pitch": -3,
+					"yaw": -49,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_4"
+				}
+			]
+		},
+		"room235_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 235",
+			"panorama": "./room235_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": 15,
+					"type": "scene",
+					"text": "Sala 235",
+					"sceneId": "room235_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": 47,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_4"
+				}
+			]
+		},
+		"room237_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 237",
+			"panorama": "./room237_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 10,
+					"type": "scene",
+					"text": "Sala 237",
+					"sceneId": "room237_2"
+				},
+				{
+					"pitch": 0,
+					"yaw": -42,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_6"
+				}
+			]
+		},
+		"room237_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 237",
+			"panorama": "./room237_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": -7,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_6"
+				},
+				{
+					"pitch": -1,
+					"yaw": -55,
+					"type": "scene",
+					"text": "Sala 237",
+					"sceneId": "room237_1"
+				}
+			]
+		},
+		"room238_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 238",
+			"panorama": "./room238_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": -2,
+					"type": "scene",
+					"text": "Sala 238",
+					"sceneId": "room238_2"
+				},
+				{
+					"pitch": -3,
+					"yaw": -150,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_7"
+				},
+				{
+					"pitch": -3,
+					"yaw": -127,
+					"type": "scene",
+					"text": "Sala 250 [COMING SOON]",
+					"sceneId": "room250_1"
+				}
+			]
+		},
+		"room238_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 238",
+			"panorama": "./room238_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 3,
+					"type": "scene",
+					"text": "Sala 238",
+					"sceneId": "room238_1"
+				}
+			]
+		},
+		"room245_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 245",
+			"panorama": "./room245_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 21,
+					"type": "scene",
+					"text": "Sala 245",
+					"sceneId": "room245_2"
+				},
+				{
+					"pitch": -13,
+					"yaw": -35,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_9"
+				}
+			]
+		},
+		"room245_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 245",
+			"panorama": "./room245_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 10,
+					"type": "scene",
+					"text": "Sala 245",
+					"sceneId": "room245_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": 44,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_9"
+				}
+			]
+		},
+		"room247_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 247",
+			"panorama": "./room247_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": -4,
+					"type": "scene",
+					"text": "Sala 247",
+					"sceneId": "room247_2"
+				},
+				{
+					"pitch": -2,
+					"yaw": -37,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_2"
+				}
+			]
+		},
+		"room247_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 247",
+			"panorama": "./room247_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw": -6,
+					"type": "scene",
+					"text": "Sala 247",
+					"sceneId": "room247_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": 40,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_2"
+				}
+			]
+		},
+		"room252_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 252",
+			"panorama": "./room252_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw": 31,
+					"type": "scene",
+					"text": "Sala 252",
+					"sceneId": "room252_2"
+				},
+				{
+					"pitch": 0,
+					"yaw": -17,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_6r"
+				}
+			]
+		},
+		"room252_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 252",
+			"panorama": "./room252_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 8,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_6r"
+				},
+				{
+					"pitch": -1,
+					"yaw": -42,
+					"type": "scene",
+					"text": "Sala 252",
+					"sceneId": "room252_1"
+				}
+			]
+		},
+		"room254_1": {
+			"title": "Budynek 2: Piętro 1.: Sala 254",
+			"panorama": "./room254_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -28,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_3"
+				},
+				{
+					"pitch": -2,
+					"yaw": 48,
+					"type": "scene",
+					"text": "Sala 254",
+					"sceneId": "room254_2"
+				}
+			]
+		},
+		"room254_2": {
+			"title": "Budynek 2: Piętro 1.: Sala 254",
+			"panorama": "./room254_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -22,
+					"type": "scene",
+					"text": "Sala 254",
+					"sceneId": "room254_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": 13,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_lcorridor_3"
+				}
+			]
+		},
+		"room259_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 259",
+			"panorama": "./room259_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -24,
+					"yaw": -152,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_rcorridor_2"
+				},
+				{
+					"pitch": -15,
+					"yaw": -145,
+					"type": "scene",
+					"text": "Sala 224",
+					"sceneId": "room224_1"
+				},
+				{
+					"pitch": -5,
+					"yaw": -40,
+					"type": "scene",
+					"text": "Sala 259",
+					"sceneId": "room259_2"
+				}
+			]
+		},
+		"room259_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 259",
+			"panorama": "./room259_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": 32,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_rcorridor_2"
+				},
+				{
+					"pitch": -5,
+					"yaw": 23,
+					"type": "scene",
+					"text": "Sala 259",
+					"sceneId": "room259_1"
+				}
+			]
+		},
+		"room260_1": {
+			"title": "Budynek 1: Piętro 2.: Sala 260",
+			"panorama": "./room260_1.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -26,
+					"yaw": -82,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_rcorridor_3"
+				},
+				{
+					"pitch": -3,
+					"yaw": 16,
+					"type": "scene",
+					"text": "Sala 260",
+					"sceneId": "room260_2"
+				}
+			]
+		},
+		"room260_2": {
+			"title": "Budynek 1: Piętro 2.: Sala 260",
+			"panorama": "./room260_2.jpg",
+			"author": "Bartosz Bieniek & Kamil Kęska",
+			"hotSpots": [
+				{
+					"pitch": -1,
+					"yaw": -26,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "b1_2floor_rcorridor_3"
+				},
+				{
+					"pitch": -3,
+					"yaw": -30,
+					"type": "scene",
+					"text": "Sala 260",
+					"sceneId": "room260_1"
+				}
+			]
+		},
+		"hall_outside_1": {
+			"title": "Hala Sportowa: Zewnątrz",
+			"panorama": "./hall_outside_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw": -27,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "hall_enterance"
+				},
+				{
+					"pitch": -3,
+					"yaw": 27,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_2"
+				}
+			]
+		},
+		"hall_outside_2": {
+			"title": "Hala Sportowa: Zewnątrz",
+			"panorama": "./hall_outside_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw": -152,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "hall_enterance"
+				},
+				{
+					"pitch": -4,
+					"yaw": 164,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": -3,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_3"
+				}
+			]
+		},
+		"hall_outside_2r": {
+			"title": "Hala Sportowa: Zewnątrz",
+			"panorama": "./hall_outside_2r.jpg",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw": 28,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "hall_enterance"
+				},
+				{
+					"pitch": -4,
+					"yaw": -16,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": 177,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_3"
+				}
+			]
+		},
+		"hall_outside_3": {
+			"title": "Hala Sportowa: Zewnątrz",
+			"panorama": "./hall_outside_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": -132,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_2r"
+				},
+				{
+					"pitch": -6,
+					"yaw": -6,
+					"type": "scene",
+					"text": "Orlik (wejście)",
+					"sceneId": "playground_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": 80,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": -72,
+					"type": "scene",
+					"text": "Siłownia (skrót)",
+					"sceneId": "hall_gym"
+				}
+			]
+		},
+		"hall_outside_3r": {
+			"title": "Hala Sportowa: Zewnątrz",
+			"panorama": "./hall_outside_3r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -6,
+					"yaw": 131,
+					"type": "scene",
+					"text": "Orlik (wejście)",
+					"sceneId": "playground_1"
+				},
+				{
+					"pitch": -4,
+					"yaw": 5,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_2r"
+				},
+				{
+					"pitch": -2,
+					"yaw": -144,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": 65,
+					"type": "scene",
+					"text": "Siłownia (skrót)",
+					"sceneId": "hall_gym"
+				}
+			]
+		},
+		"playground_1": {
+			"title": "Orlik (wejście)",
+			"panorama": "./playground_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": -162,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_3r"
+				},
+				{
+					"pitch": -2,
+					"yaw": 149,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_1"
+				},
+				{
+					"pitch": -1,
+					"yaw": 139,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_2"
+				},
+				{
+					"pitch": -3,
+					"yaw": -41,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_3r"
+				},
+				{
+					"pitch": -2,
+					"yaw": 35,
+					"type": "scene",
+					"text": "Orlik",
+					"sceneId": "playground_2"
+				}
+			]
+		},
+		"playground_2": {
+			"title": "Orlik",
+			"panorama": "./playground_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": 2,
+					"yaw": 160,
+					"type": "scene",
+					"text": "Wyjście",
+					"sceneId": "playground_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": -83,
+					"type": "scene",
+					"text": "Boisko",
+					"sceneId": "playground_basketball"
+				},
+				{
+					"pitch": -7,
+					"yaw": 2,
+					"type": "scene",
+					"text": "Boisko",
+					"sceneId": "playground_football"
+				}
+			]
+		},
+		"playground_basketball": {
+			"title": "Orlik",
+			"panorama": "./playground_basketball.jpg",
+			"hotSpots": [
+				{
+					"pitch": 0,
+					"yaw": 122,
+					"type": "scene",
+					"text": "Powrót",
+					"sceneId": "playground_2"
+				}
+			]
+		},
+		"playground_football": {
+			"title": "Orlik",
+			"panorama": "./playground_football.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": -48,
+					"type": "scene",
+					"text": "Powrót",
+					"sceneId": "playground_2"
+				}
+			]
+		},
+		"hall_enterance": {
+			"title": "Hala Sportowa: Wejście",
+			"panorama": "./hall_enterance.jpg",
+			"hotSpots": [
+				{
+					"pitch": -7,
+					"yaw": 140,
+					"type": "scene",
+					"text": "Wyjście",
+					"sceneId": "hall_outside_1"
+				},
+				{
+					"pitch": -4,
+					"yaw": -22,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_1"
+				},
+				{
+					"pitch": -4,
+					"yaw": -49,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_1"
+				},
+				{
+					"pitch": 2,
+					"yaw": 24,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_1"
+				},
+				{
+					"pitch": -10,
+					"yaw": 57,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_3r"
+				},
+				{
+					"pitch": -3,
+					"yaw": 60,
+					"type": "scene",
+					"text": "Korytarz (Koniec)",
+					"sceneId": "hall_corridorut_1"
+				}
+			]
+		},
+		"hall_tribunes_1": {
+			"title": "Hala Sportowa: Trybuny",
+			"panorama": "./hall_tribunes_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -8,
+					"yaw": 106,
+					"type": "scene",
+					"text": "Wyjście",
+					"sceneId": "hall_outside_1"
+				},
+				{
+					"pitch": -13,
+					"yaw": 112,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "hall_enterance"
+				},
+				{
+					"pitch": 0,
+					"yaw": 18,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_3"
+				},
+				{
+					"pitch": -4,
+					"yaw": -2,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_2"
+				},
+				{
+					"pitch": -7,
+					"yaw": -28,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_2"
+				},
+				{
+					"pitch": -11,
+					"yaw": -100,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_1"
+				}
+			]
+		},
+		"hall_tribunes_2": {
+			"title": "Hala Sportowa: Trybuny",
+			"panorama": "./hall_tribunes_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": 58,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_1"
+				},
+				{
+					"pitch": -5,
+					"yaw": 90,
+					"type": "scene",
+					"text": "Hala  Sportowa",
+					"sceneId": "hall_big_1"
+				},
+				{
+					"pitch": -14,
+					"yaw": 141,
+					"type": "scene",
+					"text": "Hala  Sportowa",
+					"sceneId": "hall_big_2"
+				},
+				{
+					"pitch": 0,
+					"yaw": 36,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_3"
+				},
+				{
+					"pitch": -38,
+					"yaw": -37,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_1"
+				}
+			]
+		},
+		"hall_tribunes_3": {
+			"title": "Hala Sportowa: Trybuny",
+			"panorama": "./hall_tribunes_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -16,
+					"yaw": 64,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_2"
+				},
+				{
+					"pitch": -15,
+					"yaw": 28,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_big_2"
+				},
+				{
+					"pitch": -14,
+					"yaw": -80,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_1"
+				},
+				{
+					"pitch": -11,
+					"yaw": -43,
+					"type": "scene",
+					"text": "Hala Sprtowa",
+					"sceneId": "hall_big_1"
+				}
+			]
+		},
+		"hall_big_1": {
+			"title": "Hala Sportowa",
+			"panorama": "./hall_big_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": 51,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "hall_enterance"
+				},
+				{
+					"pitch": -1,
+					"yaw": 74,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_2"
+				},
+				{
+					"pitch": -1,
+					"yaw": -160,
+					"type": "scene",
+					"text": "Ścieżka przy orliku (skrót)",
+					"sceneId": "outside_catwalk_3"
+				},
+				{
+					"pitch": -3,
+					"yaw": 157,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_3"
+				},
+				{
+					"pitch": 3,
+					"yaw": 42,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_1"
+				},
+				{
+					"pitch": 4,
+					"yaw": 6,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_3"
+				},
+				{
+					"pitch": 1,
+					"yaw": -17,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_2"
+				},
+				{
+					"pitch": -4,
+					"yaw": -40,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_2"
+				}
+			]
+		},
+		"hall_big_2": {
+			"title": "Hala Sportowa",
+			"panorama": "./hall_big_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": 66,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_1"
+				},
+				{
+					"pitch": 0,
+					"yaw": 43,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_2"
+				},
+				{
+					"pitch": 2,
+					"yaw": 31,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_1"
+				},
+				{
+					"pitch": -7,
+					"yaw": -58,
+					"type": "scene",
+					"text": "Siłownia (wejście)",
+					"sceneId": "hall_gym_enterance"
+				},
+				{
+					"pitch": 6,
+					"yaw": -7,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_3"
+				},
+				{
+					"pitch": 1,
+					"yaw": -40,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_2"
+				}
+			]
+		},
+		"hall_gym_enterance": {
+			"title": "Hala Sportowa",
+			"panorama": "./hall_gym_enterance.jpg",
+			"hotSpots": [
+				{
+					"pitch": -15,
+					"yaw": 79,
+					"type": "scene",
+					"text": "Siłownia",
+					"sceneId": "hall_gym"
+				},
+				{
+					"pitch": -26,
+					"yaw": -157,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_1"
+				},
+				{
+					"pitch": -7,
+					"yaw": -40,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_2"
+				}
+			]
+		},
+		"hall_gym": {
+			"title": "Hala Sportowa: Siłownia",
+			"panorama": "./hall_gym.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": 52,
+					"type": "scene",
+					"text": "Hala Sportowa Zewnątrz (skrót)",
+					"sceneId": "hall_outside_3r"
+				},
+				{
+					"pitch": -13,
+					"yaw": -148,
+					"type": "scene",
+					"text": "Wyjście",
+					"sceneId": "hall_gym_enterance"
+				}
+			]
+		},
+		"hall_corridorut_1": {
+			"title": "Hala Sportowa",
+			"panorama": "./hall_corridorut_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -5,
+					"yaw": 79,
+					"type": "scene",
+					"text": "Siłownia",
+					"sceneId": "hall_gym"
+				},
+				{
+					"pitch": -23,
+					"yaw": 76,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_gym_enterance"
+				},
+				{
+					"pitch": -11,
+					"yaw": -83,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_2"
+				},
+				{
+					"pitch": -1,
+					"yaw": -83,
+					"type": "scene",
+					"text": "Korytarz (Początek)",
+					"sceneId": "hall_enterance"
+				},
+				{
+					"pitch": -7,
+					"yaw": 7,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_2"
+				}
+			]
+		},
+		"hall_corridorut_2": {
+			"title": "Hala Sportowa",
+			"panorama": "./hall_corridorut_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -12,
+					"yaw": 174,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_"
+				},
+				{
+					"pitch": -12,
+					"yaw": -6,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_3"
+				}
+			]
+		},
+		"hall_corridorut_2r": {
+			"title": "Hala Sportowa",
+			"panorama": "./hall_corridorut_2r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -12,
+					"yaw": -179,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_3"
+				},
+				{
+					"pitch": -12,
+					"yaw": 1,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_1"
+				}
+			]
+		},
+		"hall_corridorut_3": {
+			"title": "Hala Sportowa",
+			"panorama": "./hall_corridorut_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -11,
+					"yaw": 166,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_2r"
+				},
+				{
+					"pitch": -6,
+					"yaw": -10,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_1"
+				},
+				{
+					"pitch": -11,
+					"yaw": -22,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_enterance"
+				}
+			]
+		},
+		"hall_corridorut_3r": {
+			"title": "Hala Sportowa",
+			"panorama": "./hall_corridorut_3r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -11,
+					"yaw": -16,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridorut_2r"
+				},
+				{
+					"pitch": -6,
+					"yaw": 173,
+					"type": "scene",
+					"text": "Trybuny",
+					"sceneId": "hall_tribunes_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": 157,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_enterance"
+				}
+			]
+		},
+		"hall_smallhall": {
+			"title": "Hala Sportowa: Mała Sala Gimnastyczna",
+			"panorama": "./hall_smallhall.jpg",
+			"hotSpots": [
+				{
+					"pitch": -7,
+					"yaw": 32,
+					"type": "scene",
+					"sceneId": "hall_atrium_2",
+					"text": "Atrium"
+				}
+			]
+		},
+		"hall_atrium_1": {
+			"title": "Hala Sportowa: Autrium",
+			"panorama": "./hall_atrium_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -10,
+					"yaw": 13,
+					"type": "scene",
+					"sceneId": "hall_atrium_2",
+					"text": "Atrium"
+				},
+				{
+					"pitch": 0,
+					"yaw": -50,
+					"type": "scene",
+					"sceneId": "hall_smallhall",
+					"text": "Mała sala gimnastyczna"
+				},
+				{
+					"pitch": -6,
+					"yaw": 155,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "hall_enterance"
+				},
+				{
+					"pitch": -6,
+					"yaw": 136,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_1"
+				}
+			]
+		},
+		"hall_atrium_1r": {
+			"title": "Hala Sportowa: Atrium",
+			"panorama": "./hall_atrium_1r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -10,
+					"yaw": -138,
+					"type": "scene",
+					"sceneId": "hall_atrium_2",
+					"text": "Atrium"
+				},
+				{
+					"pitch": 0,
+					"yaw": 159,
+					"type": "scene",
+					"sceneId": "hall_smallhall",
+					"text": "Mała Sala Gimnastyczna"
+				},
+				{
+					"pitch": -6,
+					"yaw": 5,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "hall_enterance"
+				},
+				{
+					"pitch": -6,
+					"yaw": -16,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_1"
+				}
+			]
+		},
+		"hall_atrium_2": {
+			"title": "Hala Sportowa: Atrium",
+			"panorama": "./hall_atrium_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -6,
+					"yaw": -126,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_1r"
+				},
+				{
+					"pitch": -8,
+					"yaw": -100,
+					"type": "scene",
+					"text": "Mała Sala Gimnastyczna",
+					"sceneId": "hall_smallhall"
+				},
+				{
+					"pitch": -8,
+					"yaw": 80,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_3r"
+				},
+				{
+					"pitch": -8,
+					"yaw": -152,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_1"
+				}
+			]
+		},
+		"hall_atrium_3": {
+			"title": "Hala Sportowa: Atrium",
+			"panorama": "./hall_atrium_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -9,
+					"yaw": -100,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_1"
+				},
+				{
+					"pitch": -12,
+					"yaw": 179,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridor_1"
+				},
+				{
+					"pitch": -7,
+					"yaw": 11,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_2"
+				}
+			]
+		},
+		"hall_atrium_3r": {
+			"title": "Hala Sportowa: Atrium",
+			"panorama": "./hall_atrium_3r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -10,
+					"yaw": 60,
+					"type": "scene",
+					"text": "Hala Sportowa",
+					"sceneId": "hall_big_1"
+				},
+				{
+					"pitch": -7,
+					"yaw": 170,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_2"
+				},
+				{
+					"pitch": -11,
+					"yaw": -23,
+					"type": "scene",
+					"text": "Korytarz",
+					"sceneId": "hall_corridor_1"
+				}
+			]
+		},
+		"hall_corridor_1": {
+			"title": "Hala Sportowa: Atrium",
+			"panorama": "./hall_corridor_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": 1,
+					"yaw": 7,
+					"type": "scene",
+					"text": "Budynek Szkoły",
+					"sceneId": "b2_parter_glory"
+				},
+				{
+					"pitch": -7,
+					"yaw": -177,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_3"
+				}
+			]
+		},
+		"hall_corridor_1r": {
+			"title": "Hala Sportowa: Atrium",
+			"panorama": "./hall_corridor_1r.jpg",
+			"hotSpots": [
+				{
+					"pitch": 1,
+					"yaw": -170,
+					"type": "scene",
+					"text": "Budynek Szkoły",
+					"sceneId": "b2_parter_glory"
+				},
+				{
+					"pitch": -7,
+					"yaw": 7,
+					"type": "scene",
+					"text": "Atrium",
+					"sceneId": "hall_atrium_3"
+				}
+			]
+		},
+		"outside_catwalk_1": {
+			"title": "Droga na Orlik",
+			"panorama": "./outside_catwalk_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -8,
+					"yaw": 21,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_2"
+				},
+				{
+					"pitch": 0,
+					"yaw": 172,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "b2_parter_lobby"
+				}
+			]
+		},
+		"outside_catwalk_1r": {
+			"title": "Droga na Orlik",
+			"panorama": "./outside_catwalk_1r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -8,
+					"yaw": -158,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_2"
+				},
+				{
+					"pitch": 0,
+					"yaw": -8,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "b2_parter_lobby"
+				}
+			]
+		},
+		"outside_catwalk_2": {
+			"title": "Droga na Orlik",
+			"panorama": "./outside_catwalk_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": -1,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_3"
+				},
+				{
+					"pitch": 0,
+					"yaw": 172,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "b2_parter_lobby"
+				},
+				{
+					"pitch": -5,
+					"yaw": 177,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_1r"
+				}
+			]
+		},
+		"outside_catwalk_2r": {
+			"title": "Droga na Orlik",
+			"panorama": "./outside_catwalk_2r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": 179,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_3"
+				},
+				{
+					"pitch": 0,
+					"yaw": -8,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "b2_parter_lobby"
+				},
+				{
+					"pitch": -5,
+					"yaw": -3,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_1r"
+				}
+			]
+		},
+		"outside_catwalk_3": {
+			"title": "Droga na Orlik",
+			"panorama": "./outside_catwalk_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": 177,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_2r"
+				},
+				{
+					"pitch": -1,
+					"yaw": 111,
+					"type": "scene",
+					"text": "Hala sportowa (skrót)",
+					"sceneId": "hall_big_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": 1,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "playground_1"
+				}
+			]
+		},
+		"outside_catwalk_3r": {
+			"title": "Droga na Orlik",
+			"panorama": "./outside_catwalk_3r.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": -3,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_catwalk_2r"
+				},
+				{
+					"pitch": -2,
+					"yaw": -179,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "playground_1"
+				}
+			]
+		},
+		"outside_stage": {
+			"title": "Scena przy orliku",
+			"panorama": "./outside_stage.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": 38,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_3"
+				},
+				{
+					"pitch": -5,
+					"yaw": 73,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_4"
+				}
+			]
+		},
+		"outside_chapel": {
+			"title": "Kapliczka",
+			"panorama": "./outside_chapel.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -148,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_5r"
+				},
+				{
+					"pitch": -1,
+					"yaw": -68,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_6"
+				}
+			]
+		},
+		"outside_path_1": {
+			"title": "Ścieżka przy internacie",
+			"panorama": "./outside_path_1.jpg",
+			"hotSpots": [
+				{
+					"pitch": -5,
+					"yaw": -77,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "hall_outside_3"
+				},
+				{
+					"pitch": -3,
+					"yaw": -29,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "playground_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": 125,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_2"
+				},
+				{
+					"pitch": -1,
+					"yaw": 95,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_3"
+				}
+			]
+		},
+		"outside_path_2": {
+			"title": "Ścieżka przy internacie",
+			"panorama": "./outside_path_2.jpg",
+			"hotSpots": [
+				{
+					"pitch": -4,
+					"yaw": -57,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_1"
+				},
+				{
+					"pitch": -2,
+					"yaw": -37,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "playground_1"
+				},
+				{
+					"pitch": -5,
+					"yaw": 57,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_3"
+				}
+			]
+		},
+		"outside_path_3": {
+			"title": "Ścieżka przy internacie",
+			"panorama": "./outside_path_3.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": -59,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_1"
+				},
+				{
+					"pitch": -3,
+					"yaw": 33,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_4"
+				},
+				{
+					"pitch": -1,
+					"yaw": 50,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_4"
+				},
+				{
+					"pitch": -5,
+					"yaw": -100,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_2"
+				}
+			]
+		},
+		"outside_path_4": {
+			"title": "Ścieżka przy scenie",
+			"panorama": "./outside_path_4.jpg",
+			"hotSpots": [
+				{
+					"pitch": -2,
+					"yaw": -39.5,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_5"
+				},
+				{
+					"pitch": 2,
+					"yaw": 10,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_stage"
+				},
+				{
+					"pitch": -3,
+					"yaw": 143,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_3"
+				}
+			]
+		},
+		"outside_path_5": {
+			"title": "Ścieżka przy scenie",
+			"panorama": "./outside_path_5.jpg",
+			"hotSpots": [
+				{
+					"pitch": 1,
+					"yaw": -20.5,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_6"
+				},
+				{
+					"pitch": -5,
+					"yaw": 162,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_4"
+				},
+				{
+					"pitch": 2,
+					"yaw": 22,
+					"type": "scene",
+					"text": "Kapliczka",
+					"sceneId": "outside_chapel"
+				}
+			]
+		},
+		"outside_path_5r": {
+			"title": "Ścieżka przy scenie",
+			"panorama": "./outside_path_5r.jpg",
+			"hotSpots": [
+				{
+					"pitch": 1,
+					"yaw": 159.5,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_6"
+				},
+				{
+					"pitch": -5,
+					"yaw": -18,
+					"type": "scene",
+					"text": "Ścieżka",
+					"sceneId": "outside_path_4"
+				},
+				{
+					"pitch": 2,
+					"yaw": -158,
+					"type": "scene",
+					"text": "Kapliczka",
+					"sceneId": "outside_chapel"
+				}
+			]
+		},
+		"outside_path_6": {
+			"title": "Ścieżka przy scenie",
+			"panorama": "./outside_path_6.jpg",
+			"hotSpots": [
+				{
+					"pitch": 2,
+					"yaw": -2,
+					"type": "scene",
+					"sceneId": "outside_path_5r"
+				},
+				{
+					"pitch": 2,
+					"yaw": 78,
+					"type": "scene",
+					"sceneId": "outside_path_7"
+				},
+				{
+					"pitch": -1,
+					"yaw": 110,
+					"type": "scene",
+					"sceneId": "outside_path_8"
+				},
+				{
+					"pitch": 2,
+					"yaw": -52,
+					"type": "scene",
+					"text": "Kapliczka",
+					"sceneId": "outside_chapel"
+				}
+			]
+		},
+		"outside_path_7": {
+			"title": "Ścieżka przy scenie",
+			"panorama": "./outside_path_7.jpg",
+			"hotSpots": [
+				{
+					"pitch": -3,
+					"yaw": 75,
+					"type": "scene",
+					"sceneId": "outside_path_6"
+				},
+				{
+					"pitch": -3,
+					"yaw": -110,
+					"type": "scene",
+					"text": "Wejście",
+					"sceneId": "connector_1"
+				},
+				{
+					"pitch": -7,
+					"yaw": -8,
+					"type": "scene",
+					"sceneId": "outside_path_8"
+				}
+			]
+		},
+		"outside_path_8": {
+			"title": "Ścieżka przy scenie",
+			"panorama": "./outside_path_8.jpg",
+			"hotSpots": [
+				{
+					"pitch": 2,
+					"yaw": -171,
+					"type": "scene",
+					"sceneId": "outside_path_7"
+				},
+				{
+					"pitch": -2,
+					"yaw": 132,
+					"type": "scene",
+					"sceneId": "outside_path_6"
+				}
+			]
+		}
+	}
+}
